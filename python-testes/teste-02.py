@@ -1,4 +1,10 @@
-n1 = input('Digite um numero')
+n1 =  input('Digite um numero')
 print(n1)
 print('O tipo primitivo desse valor é:',type(n1))
-print('Só tem espaço?' n1.isspace())
+print('Só tem espaço?', n1.isspace())
+print ('É um número?', n1.isnumeric())
+print ('É alfabetico?', n1.isalpha())
+print ('É alfanumerico?', n1.isalnum())
+print ('Está em maiúsculas?', n1.isupper())
+print ('Está em minúsculas?', n1.islower())
+
