@@ -1,5 +1,8 @@
-nu = input ('Digite um number')
+import math
+
+
+nu = float(input ('Digite um number'))
 dobro = nu + nu
-triplo = nu + dobro
-raiz = nu **(1/2)
-print ('número digitado é {} e dobro desse valor é {} o triplo {} e a raiz é {}'.format (nu,dobro,triplo, raiz))
+triplo = nu + float(dobro) 
+raiz = math.sqrt(nu)
+print (f'número digitado é {nu} e dobro desse valor é {dobro} o triplo {triplo} e a raiz é {raiz:.2f}')
