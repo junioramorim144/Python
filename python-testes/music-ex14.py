@@ -1,5 +1,5 @@
 import pygame
-pygame.init()
-pygame.mixer.music.load('Giveon-mp3')
+pygame.mixer.init()
+pygame.mixer.music.load("teste.14.mp3")
 pygame.mixer.music.play()
 pygame.event.wait()
