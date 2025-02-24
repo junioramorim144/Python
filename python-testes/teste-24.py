@@ -6,7 +6,7 @@ print ('Vamos cobrar 0,50 centavos por km. e 0,45 centavos por km em viagens sup
 
 if (km <= 200):
     viagem = km * 0.50 
-    print(f'Sua viagem ficou em R${viagem} reais ')
+    print(f'Sua viagem ficou em R${viagem:.2f} reais ')
 else:
     viagem2 = km * 0.45
-    print(f'Sua viagem ficou em R${viagem2} reais ')
+    print(f'Sua viagem ficou em R${viagem2:.2f} reais ')
