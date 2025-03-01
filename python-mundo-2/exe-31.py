@@ -7,18 +7,21 @@ ano = int (input('Insira seu ano de nascimento com os 4 digitos:'))
 
 idade = atual - ano 
 
-print(f'Quem nasceu em {ano} tem {idade} ano em {atual}')
+print(f'Quem nasceu em {ano} tem {idade} anos em {atual}')
 
 if  idade == 18:
      print('Você precisa se apresentar no exército brasileiro!')
 
 elif idade < 18:
      saldo = 18 - idade
+     ano = atual + saldo
      print(f'Você ainda não tem 18 anos. ainda faltam {saldo} anos para 18 anos!')
+     print(f'Seu alistamento será em {ano}')
 
 else:
      saldo = idade - 18
      ano = atual - saldo
      print(f'Você já deveria ter se alistado há {saldo} anos!')
-     print(f'Seu alistamento foi  há {ano} anos')
+     print(f'Seu alistamento foi em {ano} anos')
+     
 

@@ -8,7 +8,7 @@ media = sum(nota) / len(nota)
 
 if media < 5.0:
     print(f'Você reprovou tirou {media}')
-elif media > 5.0 and media <= 6.9:
-    print(f'Você está de recuperação {media}')
+elif media >= 5.0 and media <= 6.9:
+    print(f'Você está em recuperação {media}')
 else: 
     print(f'Você está aprovado {media}')
