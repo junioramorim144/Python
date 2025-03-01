@@ -1,15 +1,24 @@
 # Apresentação ao exército brasileiro 
+from datetime import date
+atual = date.today().year
 print('Bem vindo ao site do Exército brasileiro')
 print('Digite seu ano de nascimento abaixo:')
 ano = int (input('Insira seu ano de nascimento com os 4 digitos:'))
 
-idade = 2025 - ano 
-print(f'Você tem {idade}')
+idade = atual - ano 
 
-if idade == 18:
-    print('Você precisa se apresentar no exército brasileiro!')
+print(f'Quem nasceu em {ano} tem {idade} ano em {atual}')
+
+if  idade == 18:
+     print('Você precisa se apresentar no exército brasileiro!')
+
 elif idade < 18:
-    print('Você ainda não está na idade de se apresentar ao exército!')
+     saldo = 18 - idade
+     print(f'Você ainda não tem 18 anos. ainda faltam {saldo} anos para 18 anos!')
+
 else:
-    print('Você passou da idade de se apresentar!')
-    print('Caso não tenha se apresentado, Por favor procure uma base militar!')
+     saldo = idade - 18
+     ano = atual - saldo
+     print(f'Você já deveria ter se alistado há {saldo} anos!')
+     print(f'Seu alistamento foi  há {ano} anos')
+
