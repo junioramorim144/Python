@@ -7,11 +7,11 @@ formas = int (input('(1- A vista)\n'
                     '(3- 2x cartão)\n' 
                     '(4- 3x cartão)\n'))
 if formas == 1:
-    desconto = (valor * 10) / 100
+    desconto = (valor * 10)/100
     valor_desc = valor - desconto
     print(f'O valor a vista tem 10% de desconto você pagará R$ {valor_desc:.2f} reais.')
 elif formas == 2:
-    desconto = (valor * 5) /100
+    desconto = (valor * 5)/100
     valor_desc = valor - desconto
     print('A vista no cartão tem 5% de desconto você pagará R$'
     f'{valor_desc:.2f} reais') 
@@ -19,4 +19,8 @@ elif formas == 3:
     valor_desc = valor / 2
     print(f'Você pagará em duas vezes de R$ {valor_desc:.2f} reais')
 elif formas == 4:
-    
+     desconto = (valor *20)/100
+     valor_desc = valor + desconto
+     print('Você pagará 20% de juros em até 3x no cartão.')
+     print(f'R${valor_desc:.2f} reais')
+
