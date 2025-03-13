@@ -10,10 +10,14 @@ print('vamos ver se consegue ganhar da máquina!')
 jokenpo = [1, 2 , 3]
 num2 = random.choice(jokenpo)
 print(num2)
-if num != num2:
-   if num == 1 and num2 == 2:
-       print('Você jogou pedra\n Eu joguei papel\n eu ganhei!')  
-       if num == 1 and num2 == 3:
-           print('Você jogou pedra\n Eu joguei tesoura\n eu perdi!')
-           if num == 2 and num2 == 1:
-               print('Você jogou papel\n eu joguei pedra\n eu perdi!')
+if num == num2:
+    print('Empatamos')
+elif num == 1 and num2 == 2:
+        print('Você jogou pedra\n Eu joguei papel\n eu ganhei!')  
+elif num == 1 and num2 == 3:
+        print('Você jogou pedra\n Eu joguei tesoura\n eu perdi!')
+elif num == 2 and num2 == 1:
+        print('Você jogou papel\n eu joguei pedra\n eu perdi!')
+        
+        
+        #voltarei para consertar este código!
