@@ -27,6 +27,7 @@ while opcoes != 5:
     elif opcoes == 4:
         n1 = int(input('Digite o primeiro valor:'))
         n2 = int(input('Digite o segundo valor: '))
+        
     elif opcoes == 5:
         print('finalizando...')
 
