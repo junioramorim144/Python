@@ -1,0 +1,10 @@
+print('-=' * 10)
+p = int(input('Digite o primeiro termo:'))
+razao = int(input('Digite a razão:'))
+primeiro = p
+passos = 1
+while passos <= 10:
+    print(f'{primeiro} ->' ,end='')
+    primeiro += razao
+    passos +=1 
+print =('finalizou')
