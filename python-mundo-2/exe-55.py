@@ -1,4 +1,4 @@
-termo1 = int(input('Digite o primeiro termo:'))
+terno1 = int(input('Digite o primeiro termo:'))
 razao = int(input('Digite a razão:'))
 
 t = termo1
