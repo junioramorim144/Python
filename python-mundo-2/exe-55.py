@@ -1,11 +1,17 @@
-terno1 = int(input('Digite o primeiro termo:'))
+primeiro = int(input('Digite o primeiro termo:'))
 razao = int(input('Digite a razão:'))
 
-t = termo1
-r = razao
-c = 1 
+n1 = primeiro
+c = 1
+total = 0
+mais = 10
+while mais != 0: 
+    total += mais 
+    while c <= total:
+        print( n1)
+        n1 += razao 
+        c += 1 
+    mais = int(input('Deseja fazer mais quantos?')
+               )
+print('Programa fechado.')
 
-while(termo1 <= 10):
-    print(f'{t} ->', end ='')
-    t += r
-    c += 1
