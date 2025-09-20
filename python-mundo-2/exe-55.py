@@ -1,17 +1,18 @@
-primeiro = int(input('Digite o primeiro termo:'))
-razao = int(input('Digite a razão:'))
-
-n1 = primeiro
-c = 1
+print('Gerador de PA')
+print('-='*10)
+n1 = int(input('Digite o primeito valor:'))
+razao = int(input('Digite a razao:'))
+termo = n1
 total = 0
 mais = 10
-while mais != 0: 
-    total += mais 
+c = 1 
+while mais != 0:
+    total += mais  
     while c <= total:
-        print( n1)
-        n1 += razao 
-        c += 1 
-    mais = int(input('Deseja fazer mais quantos?')
-               )
-print('Programa fechado.')
+        print(f'{termo} ->', end=' ')
+        termo += razao
+        c += 1
+        
+    mais = int(input('Quantos termos você quer mostrar?'))
+print('fechando programa...')
 
