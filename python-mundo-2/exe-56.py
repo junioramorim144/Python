@@ -1,12 +1,16 @@
-print('Sequencia de Fibonacii')
+print('Sequencia de Fibonacci')
 print('-'*30)
-nu = int(input('Digite o primeiro número:'))
+nu = int(input('Digite o número'))
+print('-'*30)
 t1 = 0
 t2 = 1
-c = 1
+c = 3 
 print('~'*30)
+print(f'{t1} -> {t2}', end=' ')
 while c <= nu:
-    print(f'{t1} {t2}', end='')
     t3 = t1 + t2
-    print(t3,end='')
+    print(f'-> {t3}',end=' ')
     c += 1 
+    t1 = t2
+    t2 = t3
+print('-> Fim.')    
