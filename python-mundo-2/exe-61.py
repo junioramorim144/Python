@@ -16,5 +16,5 @@ while True:
         print('Impar')
     cont += 1    
 
-print(f'Você escolheu {n} e digitou {IP}')
+print(f'Você escolheu {n} e digitou {IP} a máquina jogou {num}')
 print('*'*10,'Você perdeu!!','*'*10)
